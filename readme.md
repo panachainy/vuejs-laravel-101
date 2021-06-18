@@ -38,6 +38,16 @@ composer create-project --prefer-dist laravel/laravel blog
 composer require laravel/breeze --dev
 ```
 
+#### Apply Laravel Breeze
+
+```sh
+php artisan breeze:install
+
+npm install
+npm run dev
+php artisan migrate
+```
+
 ## Getting started
 
 composer update
