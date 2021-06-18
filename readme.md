@@ -48,6 +48,16 @@ npm run dev
 php artisan migrate
 ```
 
+#### Install breeze vue
+
+```sh
+php artisan breeze:install vue
+
+npm install
+npm run dev
+php artisan migrate
+```
+
 ## Getting started
 
 composer update
