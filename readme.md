@@ -26,10 +26,16 @@ composer global require laravel/installer
 
 ### Command
 
-#### Create project
+#### Create project php
 
 ```sh
 composer create-project --prefer-dist laravel/laravel blog
+```
+
+#### Install breeze
+
+```sh
+composer require laravel/breeze --dev
 ```
 
 ## Getting started
